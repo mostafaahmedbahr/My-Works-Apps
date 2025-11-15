@@ -40,6 +40,14 @@ dependencies:
   image_picker:
   url_launcher:
   cached_network_image:
+  shimmer:
+  dartz:
+  get_it:
+  bloc:
+  flutter_bloc:
+  responsive_framework:
+  easy_localization:
+  page_transition:
 
 dev_dependencies:
   flutter_test:

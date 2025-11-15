@@ -6,7 +6,9 @@ import 'package:url_launcher/url_launcher.dart';
 class ProjectDetailScreen extends StatelessWidget {
   final DocumentSnapshot project;
 
-  const ProjectDetailScreen({Key? key, required this.project}) : super(key: key);
+  const ProjectDetailScreen({super.key,
+    required this.project,
+  });
 
   @override
   Widget build(BuildContext context) {
