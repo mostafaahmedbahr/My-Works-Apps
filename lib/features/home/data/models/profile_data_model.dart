@@ -5,8 +5,8 @@ class ProfileDataModel {
   final String image;
   final String bio;
   final String job;
-  final String expYears;
-  final String customers;
+  final num expYears;
+  final num customers;
 
   const ProfileDataModel({
     required this.name,
@@ -21,12 +21,12 @@ class ProfileDataModel {
     Map<String, dynamic> data = doc.data() as Map<String, dynamic>;
 
     return ProfileDataModel(
-      name: data['name'],
-      image: data['image'],
-      bio: data['bio'],
-      job: data['job'],
-      expYears: data['expYears'],
-      customers: data['customers'],
+      name: data['name'] ?? '',
+      image: data['image'] ?? '',
+      bio: data['bio'] ?? '',
+      job: data['job'] ?? '',
+      expYears: data['expYears'] ?? '0',
+      customers: data['customers'] ?? '0',
     );
   }
 

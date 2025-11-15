@@ -1,10 +1,10 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:my_works_apps/features/home/home_screen.dart';
 
 import '../../../../core/utils/app_images/png_images.dart';
 import '../../../../core/utils/app_nav/app_nav.dart';
+import '../../../home/presentation/views/home_view.dart';
 
 
 class RotateScaleSplash extends StatefulWidget {
@@ -38,7 +38,7 @@ class _RotateScaleSplashState extends State<RotateScaleSplash>
 
     _controller.addStatusListener((status) {
       if (status == AnimationStatus.completed) {
-          AppNav.customNavigator(context: context, screen:   HomeScreen());
+          AppNav.customNavigator(context: context, screen:   HomeView());
 
       }
     });

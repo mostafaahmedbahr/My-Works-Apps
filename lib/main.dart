@@ -42,7 +42,7 @@ void main() async {
     CacheHelper.saveData(key: "fcmToken", value: value);
   });
 
-  setup();
+  setupServiceLocator();
 
   Bloc.observer = SimpleBlocObserver();
   runApp(EasyLocalization(

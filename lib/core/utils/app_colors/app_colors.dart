@@ -18,4 +18,13 @@ class AppColors {
   static const Color greyColor6 = Color(0xff535355);
   static const Color redColor = Color(0xffC32B43);
   static const Color yellowAccent = Color(0xFFFFF3CD);
+
+  static const Color blue = Color(0xFF667EEA);
+  static const Color purple = Color(0xFF764BA2);
+
+
+  static   Color? gray50 = Colors.grey[50];
+
+
+
 }
