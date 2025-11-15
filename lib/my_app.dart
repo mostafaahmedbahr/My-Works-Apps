@@ -27,7 +27,6 @@ class MyApp extends StatelessWidget {
             localizationsDelegates: context.localizationDelegates,
             supportedLocales: context.supportedLocales,
             locale: locale,
-            // locale: context.locale,
             debugShowCheckedModeBanner: false,
             title: "My ProtoFile",
             theme: ThemeData(

@@ -1,5 +1,5 @@
-class PngImages {
-  static const String pngPath = "assets/images/pngs";
-  static const String logo = "$pngPath/logo.jpg";
+class AppImages {
+  static const String imagesPath = "assets/images";
+  static const String logo = "$imagesPath/logo.jpg";
 
 }

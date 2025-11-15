@@ -53,7 +53,6 @@ class _RotateScaleSplashState extends State<RotateScaleSplash>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xffd0b1d5),
       body: AnimatedBuilder(
         animation: _controller,
         builder: (context, child) {
@@ -61,7 +60,7 @@ class _RotateScaleSplashState extends State<RotateScaleSplash>
             angle: _rotationAnimation.value,
             child: Transform.scale(
               scale: _scaleAnimation.value,
-              child: Center(child: Image.asset(PngImages.logo, width: 200)),
+              child: Center(child: Image.asset(AppImages.logo, width: 200)),
             ),
           );
         },
