@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "416021405142",
+    "project_id": "my-works-apps",
+    "storage_bucket": "my-works-apps.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416021405142:android:d8c7f5b2ac37bfa6935877",
+        "android_client_info": {
+          "package_name": "com.example.my_works_apps"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAnqgsTAvnwYw9YpKdX3l_grBzaf47RDA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
